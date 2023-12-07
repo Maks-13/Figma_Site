@@ -1,0 +1,431 @@
+.footer{
+    position: relative;
+    left: -1px;
+    height: 315px;
+}
+
+.footer__block{
+    display: grid;
+    position: absolute;
+    top: 55px;
+    width: 100%;
+    grid-template-columns: 195px 98px 408px 164px 1fr;
+}
+
+.footer__company{
+    position: absolute;
+    line-height: 16.94px;
+    letter-spacing: 0.7px;
+    color: #656566;
+    transition: color 1s;
+    transition-timing-function: ease-out;
+}
+
+.footer__company:hover,
+.footer__company:active{
+    cursor: pointer;
+    color:  #E4E5EA;
+}
+
+.footer__item-list-company{
+    position: absolute;
+    top: 37px;
+    line-height: 19.36px;
+    color: #E4E5EA;
+}
+
+.footer__item-list-company:hover{
+    cursor: pointer;
+}
+
+.footer__item-list-company li:nth-child(2){
+    position: absolute;
+    top: 29px;
+}
+
+.footer__item-list-menu li:nth-child(6){
+   display: none;
+}
+
+.footer__menu{
+    color: #656566;
+    line-height: 16.94px;
+    letter-spacing: 0.7px;
+    transition: color 1s;
+    transition-timing-function: ease-out;
+}
+
+.footer__menu:hover,
+.footer__menu:active{
+    cursor: pointer;
+    color:  #E4E5EA;
+}
+
+.footer__item-list-menu{
+    display: flex;
+    position: absolute;
+    flex-flow: column wrap;
+    height: 139px;
+    top: 37px;
+    gap: 10px;
+    color:#E4E5EA;
+}
+
+.footer__item-list-menu:hover{
+    cursor: pointer;
+}
+
+.footer__item-menu{
+    margin-left: 42px;
+}
+
+.footer__contacts{
+    position: absolute;
+    right: 0;
+    color: #656566;
+    letter-spacing: 0.7px;
+    transition: color 1s;
+    transition-timing-function: ease-out;
+}
+
+.footer__contacts:hover,
+.footer__contacts:active{
+    cursor: pointer;
+    color:  #E4E5EA;
+}   
+
+.footer__phone{
+    position: absolute;
+    top: 37px;
+    right: 0;
+    line-height: 19.36px;
+    color: #E4E5EA;
+}
+
+.footer__phone:hover{
+    cursor: pointer;
+}
+
+.footer__icons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: absolute;
+    justify-content: space-between;
+    width: 80px;
+    top: 77px;
+    right: -1px;
+}
+
+.footer__icons:hover{
+   cursor: pointer;
+}
+
+.footer__address{
+    position: absolute;
+    line-height: 19.36px;
+    top: 116px;
+    right: 0;
+    color: #E4E5EA;
+}
+
+.footer__address:hover{
+    cursor: pointer;
+}   
+
+.footer__rules{
+    position: absolute;
+    top: 205px;
+    right: 0;
+    color: rgb(182, 177, 177);
+}
+
+.footer__rules:hover{
+    cursor: pointer;
+}
+
+.footer__confidentiality{
+    position: absolute;
+    top: 225px;
+    right: 0;
+    color: rgb(182, 177, 177);
+    text-decoration: underline;
+}
+
+.footer__confidentiality{
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1441px){
+    .footer{
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 1250px){
+
+    .footer{
+        height: 560px;
+    }
+    
+    .footer__second-block{
+        display: none;
+    }   
+
+    .footer__fourth-block{
+        display: none;
+    }   
+
+    .footer__block{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 200px;
+        height: 500px;
+    }
+
+    .footer__contacts{
+        top: 200px;
+        left: 0;
+    }
+
+    .footer__phone{
+        top: 237px;
+        left: 0;
+    }
+
+    .footer__icons{
+        top: 277px;
+        left: 0;
+    }
+
+    .footer__address{
+        top: 316px;
+        left: 0;
+    }
+
+    .footer__rules{
+        top: 405px;
+        left: 0;
+    }
+
+    .footer__confidentiality{
+        top: 425px;
+        left: 0;
+    }
+
+    .footer__block-contacts{
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .footer__item-list-menu{
+        height: 160px;
+    }
+
+    .footer__item-list-menu li:nth-child(8){
+        width: 50px;
+    }
+   
+ }
+
+@media screen and (max-width: 844px){
+
+    .footer__item-list-company.Inter__400-16, .footer__item-list-menu.Inter__400-16, .footer__address.Inter__400-16, .footer__phone.Inter__500-16{
+        font-size: 14px;
+    }
+
+    .footer__block{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer__item-list-menu.Inter__400-16{
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 610px){
+    .footer{
+        width: 100%;
+        height: auto;
+        background-color: #0E1014;
+    }
+
+    .footer__block-mobile{
+        position: relative;
+        display: block;
+        margin-left: 15px;
+        margin-right: 16px;
+        height: 559px;
+        width: auto;
+    }
+
+    .footer__block{
+        position: absolute;
+        width: 100%;
+        top: 0;
+    }
+
+    .footer__item-menu{
+        margin-left: 38px;
+    }
+
+    .footer__item-list-menu li:nth-child(8){
+        display: none;
+    }
+
+    .footer__item-list-menu li:nth-child(6){
+        display: block;
+        margin-left: 38px;
+    }
+
+    .footer__block-company{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        width: 100%;
+        top: 42px;
+        left: 2px;
+    }
+
+    .footer__block-menu{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        width: 100%;
+        top: 151px;
+        left: 2px;
+    }
+
+    .footer__block-contacts{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        position: absolute;
+        left: 2px;
+    }
+
+    .footer__item-list-company li:nth-child(2){
+        top: 25px;
+    }
+
+    .footer__menu.Inter__700-14{
+        width: auto;
+        font-size: 12px;
+        letter-spacing: 0.6px;
+    }
+
+    .footer__company.Inter__700-14{
+        font-size: 12px;
+        letter-spacing: 0.6px;
+    }
+
+    .footer__contacts.Inter__700-14{
+        width: 100%;
+        text-align: center;
+        top: 360px;
+        left: auto;
+        font-size: 12px;
+        letter-spacing: 0.6px;
+    }
+   
+    .footer__phone.Inter__500-16{
+        text-align: center;
+        top: 392px;
+        left: 0;
+        font-size: 16px;
+    }
+
+    .footer__icons img{
+        width: 24px;
+        height: 24px;
+    }
+
+    .footer__icons-block{
+        position: absolute;
+        width: 100%;
+    }
+
+    .footer__icons{
+        top: 420px;
+        left: 0;
+        width: 92px;
+        margin: auto;
+    }
+
+    .footer__address{
+        top: 456px;
+        text-align: center;
+        left: 0;
+    }
+
+    .footer__rules{
+        text-align: center;
+        top: 520px;
+        left: 0;
+    }
+
+    .footer__confidentiality{
+        text-align: center;
+        top: 540px;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
+    .footer__block-company{
+        display: block;
+    }
+
+    .footer__block-menu{
+        display: block;
+    }
+
+    .footer__contacts.Inter__700-14{
+        text-align: left;
+    }
+
+    .footer__phone.Inter__500-16{
+        text-align: left;
+    }
+
+    .footer__icons{
+        margin: 0;
+    }
+
+    .footer__address{
+        text-align: left;
+    }
+
+    .footer__rules{
+        text-align: left;
+    }
+
+    .footer__confidentiality{
+        text-align: left;
+    }
+
+    .body__yellow-light{
+        display: block;
+        position: absolute;
+        top: 574px;
+        left: -66px;
+        width: 200px;
+        height: 200px;
+        flex-shrink: 0;
+        background-color: #FCB045;
+        opacity: 0.4;
+        filter: blur(196px);
+    }
+
+    .body__red-ball-mobile-bottom{
+        display: block;
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        top: 618px;
+        left: 278px;
+    }
+}

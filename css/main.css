@@ -1,0 +1,421 @@
+
+.main{
+    position: relative;
+    height: 546px;
+    left: -3px;
+}
+
+.main__title{
+    position: absolute;
+    top: 90px;
+    width: 362px;
+    height: 200px;
+    line-height: 58.09px;
+    color:#E4E5EA;
+}
+
+.main__gradient.Inter__400-48{
+    width: 247px;
+    text-transform: uppercase;
+    font-weight: 900;
+    background: #FCB045;
+    background-image: linear-gradient(90deg, #FCB045, 80%, #FF3F78);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main__c{
+    text-transform: lowercase;
+}
+
+.main__title-footer{
+    position: absolute;
+    top: 294px;
+    left: 1px;
+    width: 275px;
+    line-height: 21.94px;
+    color: #E4E5EA;
+}
+
+.main__title-consultation{
+    position: absolute;
+    top: 105px;
+    right: -3px;
+    text-align: right;
+    width: 291px;
+    color: #E4E5EA;
+}
+
+.main__free-consultation{
+    background: linear-gradient(90deg, #FCB045 2.66%, #FD1D1D 95.66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+}
+
+.main__consultation{
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    background: linear-gradient(90deg, #FCB045 36.66%, #FD1D1D 180%);
+     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main__list-item{
+    position: absolute;
+    top: 189px;
+    right: -4px;
+    width: 291px;
+    height: 100%;
+
+}
+
+.main__list-item li:nth-child(n) h4{
+    position: relative;
+    color:#E4E5EA;
+    line-height: 21.8px;
+    text-align: right;
+    letter-spacing: 0.9px;
+}
+
+.main__list-item li:nth-child(2n + 1){
+    position: absolute;
+    top: 0;
+}
+
+.main__list-item li:nth-child(3){
+    left: 172px;
+}
+
+.main__list-item li:nth-child(2n){
+    position: absolute;
+    top: 98px;
+}
+
+.main__list-item li:nth-child(4){
+    left: 207px;
+}
+
+ul li p{
+    position: absolute;
+    line-height: 19.5px;
+    color:#E4E5EA;
+    text-align: right;
+}
+
+.vidget{
+    left: 25px;
+}
+
+.skype{
+    width: 155px;
+    left: -27px;
+}
+
+.time{
+    width: 86px;        
+}
+
+.decisions{
+    top: 29px;
+    width: 126px;
+}
+
+.business{
+    top: 29px;
+    right: 0;
+    width: 89px;
+    width: 135px;
+}
+
+.sales{
+    top: 29px;
+    left: -39px;
+    width: 164px;
+}
+
+.crm{
+    top: 28px;
+    right: 0;
+    width: 130px;
+}
+
+.main__button{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 227px;
+    left: 29px;
+    width: 262px;
+    height: 61px;
+    background-color:#4077F3;
+}
+
+.main__button:hover{
+    cursor: pointer;
+}
+
+.main__button-consultation{
+    line-height: 19.36px;
+    text-decoration: none;
+    color: #E4E5EA;
+}
+
+.main__mobile-list-item{
+    display: none;
+}
+
+.main__mobile-img{
+    display: none;
+    z-index: -2;
+}
+
+@media (min-width: 1441px){
+    .main{
+        left: 0;
+    }
+}
+
+ @media screen and (max-width: 1331px){
+    .main{
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 844px){
+    
+    .main{
+        left: 0;
+        height: 438px;
+    }
+
+    .main__title.Inter__400-48{
+        top: 40px;
+        left: 14px;
+        font-size: 36px;
+        line-height: 43.57px;
+    }
+
+    .main__gradient.Inter__400-48{
+        font-size: 36px;
+    }
+
+    .main__title-footer{
+        top: 200px;            
+        left: 14px; 
+    }
+
+    .main__title-consultation.Inter__500-18{
+        position: absolute;
+       /*  width: 272px; */
+        top: 40px;
+        right: 0px;
+        text-align: right;
+    }
+
+    .main__free-consultation{
+        letter-spacing: 0;
+        text-transform: lowercase;
+    }
+
+    .main__consultation{
+        text-transform: lowercase;
+    }
+
+    .main__list-item{
+        top: 128px;
+    }
+
+    .main__item-headers{
+        font-size: 16px;
+    }
+
+    .main__item{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .main__title-consultation.Inter__500-18{
+        right: 5px;
+    }
+
+    .main__list-item{
+        right: 5px;
+    }
+  }
+
+@media screen and (max-width: 610px){
+
+    .main{
+        height: 438px;
+    }
+
+    .main__first-section{
+        display: flex;
+        justify-content: space-around;
+        height: 50%;
+    }
+    
+    .main__title.Inter__400-48{
+        left: auto;
+        width: auto;    
+        height: auto;
+        line-height: 43.57px;
+        text-align: center;
+    }
+
+    .main__title-footer{
+        top: 200px;
+        left: auto;
+        text-align: center;
+    }
+
+    .main__second-section{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .main__title-consultation.Inter__500-18{
+        position: absolute;
+       /*  width: 278px; */
+        right: auto;
+        top: 276px;
+        left: auto;
+        text-align: center;
+    }
+
+    .main__list-item{
+        display: none;
+    }
+
+    .main__mobile-list-item{
+        display: block;
+        position: absolute;
+        width: 272px;
+        top: 340px;
+        color: #E4E5EA;
+        letter-spacing: 0.65px;
+    }
+
+    .main__mobile-list-item li:nth-child(2n + 1){
+        position: absolute;
+        left: 16px;
+    }
+
+    .main__mobile-list-item li:nth-child(2n){
+        position: absolute;
+        left: 140px;
+    }
+
+    .main__mobile-dashboard{
+        top: 30px;
+    }
+
+    .main__mobile-amocrm{
+        width: 141px;
+        top: 30px;
+    }
+
+    .main__mobile-list-item li::before{
+        position: absolute;
+        content: '';
+        width: 10px;
+        height: 1px;
+        display: block;
+        background-color: #2E9AFF;
+        top: 9px;
+        left: -15px;
+        border: 8px;
+    }
+}
+
+@media screen and (max-width: 320px){
+  
+    .main{
+        left: 0;
+    }
+
+    .main__title.Inter__400-48{
+        top: 36px;
+        left: 14px;
+        line-height: 43.57px;
+        text-align: left;
+    }
+
+    .main__title-footer.Montserrat__400-18{
+        top: 182px;
+        left: 14px;
+        text-align: left;
+    }
+
+    .main__title-consultation.Inter__500-18{
+        position: absolute;
+        text-align: left;
+        width: 278px;
+        top: 271px;
+        left: 14px;
+    }
+
+    .main__consultation{
+        letter-spacing: 0px;
+    }
+
+    .main__mobile-list-item{
+        left: 16px;
+        top: 331px;
+    }
+
+    .main__mobile-list-item li::before{
+        position: absolute;
+        content: '';
+        width: 10px;
+        height: 1px;
+        display: block;
+        background-color: #2E9AFF;
+        bottom: 10px;
+        left: -15px;
+        border: 8px;
+    }
+
+    .body__red-light-block{
+        width: 211px;
+        height: 210px;
+        left: -55px;
+        top: 296px;
+    }
+
+    .body__purple-light-block{
+        left: auto;
+        right: -197px;
+        top: 162px;
+    }
+
+    .body__purple-ball-mobile{
+        display: block;
+        position: absolute;
+        top: 280px;
+        left: 280px;
+        filter: blur(6px);
+    }
+
+    .body__red-ball-mobile{
+        display: block;
+        position: absolute;
+        left: 15px;
+        top: 438px;
+        filter: drop-shadow(3px 6px 27px rgba(223, 125, 125, 0.25));
+        filter: blur(8px);
+    }
+
+    .main__mobile-img{
+        display: block;
+        position: absolute;
+        top: 55px;
+        width: 320px;
+        height: 445px;
+        flex-shrink: 0;
+    }
+}

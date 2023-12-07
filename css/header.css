@@ -1,0 +1,149 @@
+
+.header{
+    position: relative;
+    height: 119px;
+    width: 100%;
+}
+
+.header__container{
+    position: absolute;
+    height: 73px;
+    margin-top: 46px;
+    width: 100%;
+}
+
+.header__logo-image{
+    position: relative;
+    top: 11px;
+    height: 24px;
+    width: 140px;
+}
+
+.header__logo-square{
+    position: absolute;
+}
+
+.header__logo-welbex{
+    position: relative;
+    left: 43px;
+    top: 5px;
+}
+
+.header__description{
+    position: absolute;
+    width: 165px;
+    top: 45px;
+    color: rgb(182, 177, 177);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12.19px;
+}
+
+.header__nav{
+    position: absolute;
+    top: 13px;
+    left: 192px;
+    width: 503px;
+}
+
+.header__item-list{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+}
+
+.header__item{
+    color: #E4E5EA;
+}
+
+.header__item:hover{
+    cursor: pointer;
+}
+
+.header__phone{
+    position: absolute;
+    color: #E4E5EA;
+    top: 12px;
+    right: 165px;
+}
+
+.header__phone:hover{
+    cursor: pointer;
+}
+
+.header__icons{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+    top: 13px;
+    right: 0;
+}
+
+.header__icons{
+   cursor: pointer;
+}
+
+@media (min-width: 1441px){
+    .header{
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 1331px){
+
+    .header__logo-image, .header__description, .header__icons, .header__phone, .certificate{
+        display: none;
+    }
+
+    .header{
+        width: 100%;
+        position: relative;
+        top: 0;
+        height: 55px;
+    }
+
+    .header__container{
+        width: 100%;
+        position: absolute; 
+        margin: 0;
+        top: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    .header__nav{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        position: absolute;
+        left: 0;
+        width: 100%;
+    }
+
+    .header__item-list{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        text-transform: uppercase;
+    }
+
+    .header__item{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 610px){
+    .header__container{
+        background-color: #0E1014;
+    }
+
+    .header__item{
+        font-size: 12px;
+    }
+}
